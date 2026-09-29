@@ -1,1 +1,54 @@
 meu boletim
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boletim Digital</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho com título e subtítulo -->
+  <header class="cabecalho">
+    <h1>Boletim Digital</h1>
+    <p class="subtitulo">9º Ano — Estudante Exemplo</p>
+  </header>
+
+  <main class="conteudo">
+
+    <!-- Área dos cards de resumo (preenchidos pelo JavaScript) -->
+    <section class="cards-resumo" id="cardsResumo">
+      <!-- Os cards serão criados pelo script.js -->
+    </section>
+
+    <!-- Área da tabela de notas -->
+    <section class="area-tabela">
+      <h2>Notas por disciplina</h2>
+
+      <div class="tabela-responsiva">
+        <table class="tabela-boletim">
+          <thead>
+            <tr>
+              <th>Disciplina</th>
+              <th>1º Tri</th>
+              <th>2º Tri</th>
+              <th>3º Tri</th>
+              <th>Média</th>
+              <th>Faltas</th>
+              <th>Situação</th>
+            </tr>
+          </thead>
+          <tbody id="corpoTabela">
+            <!-- As linhas serão criadas pelo script.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Conecta o JavaScript no final da página -->
+  <script src="script.js"></script>
+</body>
+</html>
