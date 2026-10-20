@@ -38,6 +38,153 @@ body {
   padding: 20px 16px 40px;
 }
 
+/* ===== ÁREA DE LOGIN (PIN) ===== */
+.area-login {
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.area-login h2 {
+  font-size: 20px;
+  color: #1e5fbf;
+  margin-bottom: 16px;
+}
+
+.info-estudante {
+  background-color: #f9fafc;
+  border: 1px solid #e3e7ee;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.form-login label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+}
+
+.form-login input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-login button,
+.btn-acao {
+  background-color: #1e5fbf;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-login button:hover,
+.btn-acao:hover {
+  background-color: #164893;
+}
+
+.mensagem-status {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mensagem-status.erro {
+  color: #d9534f;
+}
+
+.mensagem-status.sucesso {
+  color: #2e9e5b;
+}
+
+.mensagem-status.info {
+  color: #1e5fbf;
+}
+
+/* ===== AÇÕES E EDIÇÃO DO BOLETIM ===== */
+.acoes-boletim {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.area-edicao {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin-bottom: 28px;
+  border-left: 6px solid #1e5fbf;
+}
+
+.area-edicao h2 {
+  font-size: 18px;
+  color: #1e5fbf;
+  margin-bottom: 6px;
+}
+
+.instrucoes-edicao {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.tabela-edicao input {
+  width: 60px;
+  padding: 6px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tabela-edicao input.campo-invalido {
+  border-color: #d9534f;
+  background-color: #fdf2f2;
+}
+
+.botoes-edicao {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.btn-salvar {
+  background-color: #2e9e5b;
+}
+
+.btn-salvar:hover {
+  background-color: #237a46;
+}
+
+.btn-cancelar {
+  background-color: #777;
+}
+
+.btn-cancelar:hover {
+  background-color: #555;
+}
+
 /* ===== CARDS DE RESUMO ===== */
 .cards-resumo {
   display: grid;
